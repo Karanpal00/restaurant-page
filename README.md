@@ -1,12 +1,8 @@
 # Tenders ☕
 
-A premium café and restaurant website inspired by classical European aesthetics and modern industrial interiors.
+A premium café and restaurant website.
 
 This project combines:
-- Elegant typography
-- Cinematic gradients
-- Luxury café branding
-- Classical-inspired food presentation
 - Smooth visual transitions
 
 ---
@@ -18,7 +14,6 @@ This project combines:
 - Custom body gradient blending with banner
 - Premium menu layout
 - Contact & Hours section
-- Responsive design
 - Clean modern CSS structure
 
 ---
