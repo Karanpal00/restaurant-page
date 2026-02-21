@@ -31,7 +31,3 @@ This project combines:
 - CSS3 (Custom Gradients & Styling)
 - Responsive Layout Techniques
 
----
-
-## 📂 Project Structure
-
