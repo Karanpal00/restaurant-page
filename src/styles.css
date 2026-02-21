@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', 'Cormorant Garamond', 'Garamond', 'Times New Roman', serif;
+}
+
+button {
+    all: unset;
+}
+
+body {
+    background-attachment:fixed;
+    background-image: linear-gradient(
+        315deg,
+        #0b1f22 0%,
+        #142e33 30%,
+        #3a2e26 65%,
+        #efe9dc 100%
+    );
+    
+    color: #fff;
+}
+
+header {
+    position:fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Playfair Display', 'Cormorant Garamond', 'Garamond', 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: 500;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    height: 3rem;
+    background: #ffffff0e;
+    backdrop-filter: blur(10px);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+button {
+    font-size: 1.4rem;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+button:hover {
+    font-size: 1.5rem;
+    color: lightcoral;
+    transition: 0.4s;
+}
+
+.card {
+    margin: 64px  auto;
+    width: 50%;
+    text-align: center;
+}
+
+.card > h2 {
+    font-size: 2rem;
+    margin-bottom: 28px;
+}
+
+.card > p {
+    font-size: 1.4rem;
+    color: #ffffffbc;
+    margin-bottom: 16px;
+
+}
+.menu-items {
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    width: 50%;
+}
+
+.menu-items h2 {
+    font-size: 2rem;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+    border-radius: 24px;
+}
+
+.item {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    font-size: 1.4rem;
+    border-bottom: 1px solid black;
+    border-radius: 24px;
+}
+
+.item p {
+    color: #ffffffbc;
+}
+.item > div {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.contact {
+    background-color: #ffffff;
+    border-radius: 14px;
+    padding: 35px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+    border-left: 4px solid #C6A75E;
+}
